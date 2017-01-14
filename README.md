@@ -1,2 +1,1 @@
-# finalwork-6
-20170114
+# KUAS 

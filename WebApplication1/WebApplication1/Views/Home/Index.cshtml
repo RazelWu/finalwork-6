@@ -1,0 +1,67 @@
+﻿@model List<WebApplication1.Models.Album>
+@{
+    ViewBag.Title = "關於我們";
+    Layout = "/Views/Shared/Layout.cshtml";
+}
+
+
+@*@<div class="container">
+    <div>
+        <h1>首頁</h1>
+    </div>
+    <a href="~/Album">My Album</a>
+    
+</div>*@
+<div class="container text-center">
+    <h3>關於我們</h3>
+    @*<p><em>We love music!</em></p>
+    <p>We have created a fictional band website. Lorem ipsum..</p>*@
+    <br>
+    <div class="row">
+        <div class="col-sm-3">
+            <p class="text-center"><strong>巫孟哲</strong></p><br>
+            <a href="#demo" data-toggle="collapse">
+                <img src="~/picture/wu.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+            </a>
+            <div id="demo" class="collapse">
+                <p>四子三丙</p>
+                <p>1103105308</p>
+                <p>1995/01/17</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <p class="text-center"><strong>石承民</strong></p><br>
+            <a href="#demo2" data-toggle="collapse">
+                <img src="~/picture/rock.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+            </a>
+            <div id="demo2" class="collapse">
+                <p>四子三丙</p>
+                <p>1103105348</p>
+                <p>1996/07/13</p>
+                
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <p class="text-center"><strong>鄭義文</strong></p><br>
+            <a href="#demo3" data-toggle="collapse">
+                <img src="~/picture/1wen.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+            </a>
+            <div id="demo3" class="collapse">
+                <p>四子三丙</p>
+                <p>1103105337</p>
+                <p>1996/04/02</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <p class="text-center"><strong>陳伯嘉</strong></p><br>
+            <a href="#demo4" data-toggle="collapse">
+                <img src="~/picture/bo.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+            </a>
+            <div id="demo4" class="collapse">
+                <p>四子三丙</p>
+                <p>1103105382</p>
+                <p>1994/09/29</p>
+            </div>
+        </div>
+    </div>
+</div>
